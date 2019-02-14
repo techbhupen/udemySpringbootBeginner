@@ -1,0 +1,170 @@
+2018-07-10 16:39:51 - Adding PropertySource 'servletConfigInitParams' with lowest search precedence
+2018-07-10 16:39:51 - Adding PropertySource 'servletContextInitParams' with lowest search precedence
+2018-07-10 16:39:51 - Adding PropertySource 'systemProperties' with lowest search precedence
+2018-07-10 16:39:51 - Adding PropertySource 'systemEnvironment' with lowest search precedence
+2018-07-10 16:39:51 - Initialized StandardServletEnvironment with PropertySources [StubPropertySource {name='servletConfigInitParams'}, StubPropertySource {name='servletContextInitParams'}, MapPropertySource {name='systemProperties'}, SystemEnvironmentPropertySource {name='systemEnvironment'}]
+2018-07-10 16:39:51 - Starting LogbackloggingApplicationTests on FNUs-MBP with PID 16923 (started by BhupendraKumar in /Users/BhupendraKumar/Downloads/logbacklogging)
+2018-07-10 16:39:51 - Running with Spring Boot v2.0.3.RELEASE, Spring v5.0.7.RELEASE
+2018-07-10 16:39:51 - No active profile set, falling back to default profiles: default
+2018-07-10 16:39:51 - Refreshing org.springframework.web.context.support.GenericWebApplicationContext@6c284af: startup date [Tue Jul 10 16:39:51 EDT 2018]; root of context hierarchy
+2018-07-10 16:39:51 - Bean factory for org.springframework.web.context.support.GenericWebApplicationContext@6c284af: org.springframework.beans.factory.support.DefaultListableBeanFactory@51bf5add: defining beans [org.springframework.boot.test.mock.mockito.MockitoPostProcessor$SpyPostProcessor,org.springframework.boot.test.mock.mockito.MockitoPostProcessor,org.springframework.context.annotation.internalConfigurationAnnotationProcessor,org.springframework.context.annotation.internalAutowiredAnnotationProcessor,org.springframework.context.annotation.internalRequiredAnnotationProcessor,org.springframework.context.annotation.internalCommonAnnotationProcessor,org.springframework.context.event.internalEventListenerProcessor,org.springframework.context.event.internalEventListenerFactory,logbackloggingApplication]; root of factory hierarchy
+2018-07-10 16:39:53 - Unable to locate MessageSource with name 'messageSource': using default [org.springframework.context.support.DelegatingMessageSource@ec0c838]
+2018-07-10 16:39:53 - Unable to locate ApplicationEventMulticaster with name 'applicationEventMulticaster': using default [org.springframework.context.event.SimpleApplicationEventMulticaster@6e46d9f4]
+2018-07-10 16:39:53 - Mapped URL path [/**/favicon.ico] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2018-07-10 16:39:53 - Looking for @ControllerAdvice: org.springframework.web.context.support.GenericWebApplicationContext@6c284af: startup date [Tue Jul 10 16:39:51 EDT 2018]; root of context hierarchy
+2018-07-10 16:39:53 - Looking for request mappings in application context: org.springframework.web.context.support.GenericWebApplicationContext@6c284af: startup date [Tue Jul 10 16:39:51 EDT 2018]; root of context hierarchy
+2018-07-10 16:39:53 - 4 request handler methods found on class com.example.logbacklogging.controller.RestEnpoints: {public com.example.logbacklogging.controller.Course com.example.logbacklogging.controller.RestEnpoints.getDefaultCourse(java.lang.String,int)={[/defaultCourse]}, public java.util.HashMap com.example.logbacklogging.controller.RestEnpoints.getConfigAnnotateProperties()={[/gethierarchical]}, public com.example.logbacklogging.controller.Course com.example.logbacklogging.controller.RestEnpoints.getEndpoint(java.lang.String,int)={[/course]}, public java.lang.String com.example.logbacklogging.controller.RestEnpoints.saveCourse(com.example.logbacklogging.controller.Course)={[/register/course],methods=[POST]}}
+2018-07-10 16:39:53 - Mapped "{[/defaultCourse]}" onto public com.example.logbacklogging.controller.Course com.example.logbacklogging.controller.RestEnpoints.getDefaultCourse(java.lang.String,int)
+2018-07-10 16:39:53 - Mapped "{[/gethierarchical]}" onto public java.util.HashMap<java.lang.String, java.lang.Object> com.example.logbacklogging.controller.RestEnpoints.getConfigAnnotateProperties()
+2018-07-10 16:39:53 - Mapped "{[/course]}" onto public com.example.logbacklogging.controller.Course com.example.logbacklogging.controller.RestEnpoints.getEndpoint(java.lang.String,int)
+2018-07-10 16:39:53 - Mapped "{[/register/course],methods=[POST]}" onto public java.lang.String com.example.logbacklogging.controller.RestEnpoints.saveCourse(com.example.logbacklogging.controller.Course)
+2018-07-10 16:39:53 - 2 request handler methods found on class org.springframework.boot.autoconfigure.web.servlet.error.BasicErrorController: {public org.springframework.http.ResponseEntity org.springframework.boot.autoconfigure.web.servlet.error.BasicErrorController.error(javax.servlet.http.HttpServletRequest)={[/error]}, public org.springframework.web.servlet.ModelAndView org.springframework.boot.autoconfigure.web.servlet.error.BasicErrorController.errorHtml(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse)={[/error],produces=[text/html]}}
+2018-07-10 16:39:53 - Mapped "{[/error]}" onto public org.springframework.http.ResponseEntity<java.util.Map<java.lang.String, java.lang.Object>> org.springframework.boot.autoconfigure.web.servlet.error.BasicErrorController.error(javax.servlet.http.HttpServletRequest)
+2018-07-10 16:39:53 - Mapped "{[/error],produces=[text/html]}" onto public org.springframework.web.servlet.ModelAndView org.springframework.boot.autoconfigure.web.servlet.error.BasicErrorController.errorHtml(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse)
+2018-07-10 16:39:53 - Looking for URL mappings in application context: org.springframework.web.context.support.GenericWebApplicationContext@6c284af: startup date [Tue Jul 10 16:39:51 EDT 2018]; root of context hierarchy
+2018-07-10 16:39:53 - Rejected bean name 'org.springframework.boot.test.mock.mockito.MockitoPostProcessor$SpyPostProcessor': no URL paths identified
+2018-07-10 16:39:53 - Rejected bean name 'org.springframework.boot.test.mock.mockito.MockitoPostProcessor': no URL paths identified
+2018-07-10 16:39:53 - Rejected bean name 'org.springframework.context.annotation.internalConfigurationAnnotationProcessor': no URL paths identified
+2018-07-10 16:39:53 - Rejected bean name 'org.springframework.context.annotation.internalAutowiredAnnotationProcessor': no URL paths identified
+2018-07-10 16:39:53 - Rejected bean name 'org.springframework.context.annotation.internalRequiredAnnotationProcessor': no URL paths identified
+2018-07-10 16:39:53 - Rejected bean name 'org.springframework.context.annotation.internalCommonAnnotationProcessor': no URL paths identified
+2018-07-10 16:39:53 - Rejected bean name 'org.springframework.context.event.internalEventListenerProcessor': no URL paths identified
+2018-07-10 16:39:53 - Rejected bean name 'org.springframework.context.event.internalEventListenerFactory': no URL paths identified
+2018-07-10 16:39:53 - Rejected bean name 'logbackloggingApplication': no URL paths identified
+2018-07-10 16:39:53 - Rejected bean name 'org.springframework.boot.autoconfigure.internalCachingMetadataReaderFactory': no URL paths identified
+2018-07-10 16:39:53 - Rejected bean name 'courseConfiguration': no URL paths identified
+2018-07-10 16:39:53 - Rejected bean name 'restEnpoints': no URL paths identified
+2018-07-10 16:39:53 - Rejected bean name 'org.springframework.boot.autoconfigure.AutoConfigurationPackages': no URL paths identified
+2018-07-10 16:39:53 - Rejected bean name 'org.springframework.boot.autoconfigure.context.PropertyPlaceholderAutoConfiguration': no URL paths identified
+2018-07-10 16:39:53 - Rejected bean name 'org.springframework.boot.autoconfigure.condition.BeanTypeRegistry': no URL paths identified
+2018-07-10 16:39:53 - Rejected bean name 'propertySourcesPlaceholderConfigurer': no URL paths identified
+2018-07-10 16:39:53 - Rejected bean name 'org.springframework.boot.autoconfigure.websocket.servlet.WebSocketServletAutoConfiguration$TomcatWebSocketConfiguration': no URL paths identified
+2018-07-10 16:39:53 - Rejected bean name 'websocketContainerCustomizer': no URL paths identified
+2018-07-10 16:39:53 - Rejected bean name 'org.springframework.boot.autoconfigure.websocket.servlet.WebSocketServletAutoConfiguration': no URL paths identified
+2018-07-10 16:39:53 - Rejected bean name 'org.springframework.boot.autoconfigure.web.servlet.ServletWebServerFactoryConfiguration$EmbeddedTomcat': no URL paths identified
+2018-07-10 16:39:53 - Rejected bean name 'tomcatServletWebServerFactory': no URL paths identified
+2018-07-10 16:39:53 - Rejected bean name 'org.springframework.boot.autoconfigure.web.servlet.ServletWebServerFactoryAutoConfiguration': no URL paths identified
+2018-07-10 16:39:53 - Rejected bean name 'servletWebServerFactoryCustomizer': no URL paths identified
+2018-07-10 16:39:53 - Rejected bean name 'tomcatServletWebServerFactoryCustomizer': no URL paths identified
+2018-07-10 16:39:53 - Rejected bean name 'server-org.springframework.boot.autoconfigure.web.ServerProperties': no URL paths identified
+2018-07-10 16:39:53 - Rejected bean name 'org.springframework.boot.context.properties.ConfigurationPropertiesBindingPostProcessor': no URL paths identified
+2018-07-10 16:39:53 - Rejected bean name 'org.springframework.boot.context.properties.ConfigurationBeanFactoryMetadata': no URL paths identified
+2018-07-10 16:39:53 - Rejected bean name 'webServerFactoryCustomizerBeanPostProcessor': no URL paths identified
+2018-07-10 16:39:53 - Rejected bean name 'errorPageRegistrarBeanPostProcessor': no URL paths identified
+2018-07-10 16:39:53 - Rejected bean name 'org.springframework.boot.autoconfigure.web.servlet.DispatcherServletAutoConfiguration$DispatcherServletConfiguration': no URL paths identified
+2018-07-10 16:39:53 - Rejected bean name 'dispatcherServlet': no URL paths identified
+2018-07-10 16:39:53 - Rejected bean name 'mainDispatcherServletPathProvider': no URL paths identified
+2018-07-10 16:39:53 - Rejected bean name 'spring.mvc-org.springframework.boot.autoconfigure.web.servlet.WebMvcProperties': no URL paths identified
+2018-07-10 16:39:53 - Rejected bean name 'org.springframework.boot.autoconfigure.web.servlet.DispatcherServletAutoConfiguration$DispatcherServletRegistrationConfiguration': no URL paths identified
+2018-07-10 16:39:53 - Rejected bean name 'dispatcherServletRegistration': no URL paths identified
+2018-07-10 16:39:54 - Rejected bean name 'org.springframework.boot.autoconfigure.web.servlet.DispatcherServletAutoConfiguration': no URL paths identified
+2018-07-10 16:39:54 - Rejected bean name 'org.springframework.boot.autoconfigure.validation.ValidationAutoConfiguration': no URL paths identified
+2018-07-10 16:39:54 - Rejected bean name 'defaultValidator': no URL paths identified
+2018-07-10 16:39:54 - Rejected bean name 'methodValidationPostProcessor': no URL paths identified
+2018-07-10 16:39:54 - Rejected bean name 'org.springframework.boot.autoconfigure.web.servlet.error.ErrorMvcAutoConfiguration$WhitelabelErrorViewConfiguration': no URL paths identified
+2018-07-10 16:39:54 - Rejected bean name 'error': no URL paths identified
+2018-07-10 16:39:54 - Rejected bean name 'beanNameViewResolver': no URL paths identified
+2018-07-10 16:39:54 - Rejected bean name 'org.springframework.boot.autoconfigure.web.servlet.error.ErrorMvcAutoConfiguration$DefaultErrorViewResolverConfiguration': no URL paths identified
+2018-07-10 16:39:54 - Rejected bean name 'conventionErrorViewResolver': no URL paths identified
+2018-07-10 16:39:54 - Rejected bean name 'org.springframework.boot.autoconfigure.web.servlet.error.ErrorMvcAutoConfiguration': no URL paths identified
+2018-07-10 16:39:54 - Rejected bean name 'errorAttributes': no URL paths identified
+2018-07-10 16:39:54 - Rejected bean name 'basicErrorController': no URL paths identified
+2018-07-10 16:39:54 - Rejected bean name 'errorPageCustomizer': no URL paths identified
+2018-07-10 16:39:54 - Rejected bean name 'preserveErrorControllerTargetClassPostProcessor': no URL paths identified
+2018-07-10 16:39:54 - Rejected bean name 'spring.resources-org.springframework.boot.autoconfigure.web.ResourceProperties': no URL paths identified
+2018-07-10 16:39:54 - Rejected bean name 'org.springframework.boot.autoconfigure.web.servlet.WebMvcAutoConfiguration$WebMvcAutoConfigurationAdapter$FaviconConfiguration': no URL paths identified
+2018-07-10 16:39:54 - Rejected bean name 'faviconHandlerMapping': no URL paths identified
+2018-07-10 16:39:54 - Rejected bean name 'faviconRequestHandler': no URL paths identified
+2018-07-10 16:39:54 - Rejected bean name 'org.springframework.boot.autoconfigure.web.servlet.WebMvcAutoConfiguration$EnableWebMvcConfiguration': no URL paths identified
+2018-07-10 16:39:54 - Rejected bean name 'requestMappingHandlerAdapter': no URL paths identified
+2018-07-10 16:39:54 - Rejected bean name 'requestMappingHandlerMapping': no URL paths identified
+2018-07-10 16:39:54 - Rejected bean name 'mvcConversionService': no URL paths identified
+2018-07-10 16:39:54 - Rejected bean name 'mvcValidator': no URL paths identified
+2018-07-10 16:39:54 - Rejected bean name 'mvcContentNegotiationManager': no URL paths identified
+2018-07-10 16:39:54 - Rejected bean name 'mvcPathMatcher': no URL paths identified
+2018-07-10 16:39:54 - Rejected bean name 'mvcUrlPathHelper': no URL paths identified
+2018-07-10 16:39:54 - Rejected bean name 'viewControllerHandlerMapping': no URL paths identified
+2018-07-10 16:39:54 - Rejected bean name 'beanNameHandlerMapping': no URL paths identified
+2018-07-10 16:39:54 - Rejected bean name 'resourceHandlerMapping': no URL paths identified
+2018-07-10 16:39:54 - Rejected bean name 'mvcResourceUrlProvider': no URL paths identified
+2018-07-10 16:39:54 - Rejected bean name 'defaultServletHandlerMapping': no URL paths identified
+2018-07-10 16:39:54 - Rejected bean name 'mvcUriComponentsContributor': no URL paths identified
+2018-07-10 16:39:54 - Rejected bean name 'httpRequestHandlerAdapter': no URL paths identified
+2018-07-10 16:39:54 - Rejected bean name 'simpleControllerHandlerAdapter': no URL paths identified
+2018-07-10 16:39:54 - Rejected bean name 'handlerExceptionResolver': no URL paths identified
+2018-07-10 16:39:54 - Rejected bean name 'mvcViewResolver': no URL paths identified
+2018-07-10 16:39:54 - Rejected bean name 'mvcHandlerMappingIntrospector': no URL paths identified
+2018-07-10 16:39:54 - Rejected bean name 'org.springframework.boot.autoconfigure.web.servlet.WebMvcAutoConfiguration$WebMvcAutoConfigurationAdapter': no URL paths identified
+2018-07-10 16:39:54 - Rejected bean name 'defaultViewResolver': no URL paths identified
+2018-07-10 16:39:54 - Rejected bean name 'viewResolver': no URL paths identified
+2018-07-10 16:39:54 - Rejected bean name 'welcomePageHandlerMapping': no URL paths identified
+2018-07-10 16:39:54 - Rejected bean name 'requestContextFilter': no URL paths identified
+2018-07-10 16:39:54 - Rejected bean name 'org.springframework.boot.autoconfigure.web.servlet.WebMvcAutoConfiguration': no URL paths identified
+2018-07-10 16:39:54 - Rejected bean name 'hiddenHttpMethodFilter': no URL paths identified
+2018-07-10 16:39:54 - Rejected bean name 'httpPutFormContentFilter': no URL paths identified
+2018-07-10 16:39:54 - Rejected bean name 'org.springframework.boot.autoconfigure.context.ConfigurationPropertiesAutoConfiguration': no URL paths identified
+2018-07-10 16:39:54 - Rejected bean name 'org.springframework.boot.autoconfigure.jackson.JacksonAutoConfiguration$Jackson2ObjectMapperBuilderCustomizerConfiguration': no URL paths identified
+2018-07-10 16:39:54 - Rejected bean name 'standardJacksonObjectMapperBuilderCustomizer': no URL paths identified
+2018-07-10 16:39:54 - Rejected bean name 'spring.jackson-org.springframework.boot.autoconfigure.jackson.JacksonProperties': no URL paths identified
+2018-07-10 16:39:54 - Rejected bean name 'org.springframework.boot.autoconfigure.jackson.JacksonAutoConfiguration$JacksonObjectMapperBuilderConfiguration': no URL paths identified
+2018-07-10 16:39:54 - Rejected bean name 'jacksonObjectMapperBuilder': no URL paths identified
+2018-07-10 16:39:54 - Rejected bean name 'org.springframework.boot.autoconfigure.jackson.JacksonAutoConfiguration$ParameterNamesModuleConfiguration': no URL paths identified
+2018-07-10 16:39:54 - Rejected bean name 'parameterNamesModule': no URL paths identified
+2018-07-10 16:39:54 - Rejected bean name 'org.springframework.boot.autoconfigure.jackson.JacksonAutoConfiguration$JacksonObjectMapperConfiguration': no URL paths identified
+2018-07-10 16:39:54 - Rejected bean name 'jacksonObjectMapper': no URL paths identified
+2018-07-10 16:39:54 - Rejected bean name 'org.springframework.boot.autoconfigure.jackson.JacksonAutoConfiguration': no URL paths identified
+2018-07-10 16:39:54 - Rejected bean name 'jsonComponentModule': no URL paths identified
+2018-07-10 16:39:54 - Rejected bean name 'org.springframework.boot.autoconfigure.http.HttpMessageConvertersAutoConfiguration$StringHttpMessageConverterConfiguration': no URL paths identified
+2018-07-10 16:39:54 - Rejected bean name 'stringHttpMessageConverter': no URL paths identified
+2018-07-10 16:39:54 - Rejected bean name 'spring.http.encoding-org.springframework.boot.autoconfigure.http.HttpEncodingProperties': no URL paths identified
+2018-07-10 16:39:54 - Rejected bean name 'org.springframework.boot.autoconfigure.http.JacksonHttpMessageConvertersConfiguration$MappingJackson2HttpMessageConverterConfiguration': no URL paths identified
+2018-07-10 16:39:54 - Rejected bean name 'mappingJackson2HttpMessageConverter': no URL paths identified
+2018-07-10 16:39:54 - Rejected bean name 'org.springframework.boot.autoconfigure.http.JacksonHttpMessageConvertersConfiguration': no URL paths identified
+2018-07-10 16:39:54 - Rejected bean name 'org.springframework.boot.autoconfigure.http.HttpMessageConvertersAutoConfiguration': no URL paths identified
+2018-07-10 16:39:54 - Rejected bean name 'messageConverters': no URL paths identified
+2018-07-10 16:39:54 - Rejected bean name 'org.springframework.boot.autoconfigure.http.codec.CodecsAutoConfiguration$JacksonCodecConfiguration': no URL paths identified
+2018-07-10 16:39:54 - Rejected bean name 'jacksonCodecCustomizer': no URL paths identified
+2018-07-10 16:39:54 - Rejected bean name 'org.springframework.boot.autoconfigure.http.codec.CodecsAutoConfiguration': no URL paths identified
+2018-07-10 16:39:54 - Rejected bean name 'org.springframework.boot.autoconfigure.info.ProjectInfoAutoConfiguration': no URL paths identified
+2018-07-10 16:39:54 - Rejected bean name 'spring.info-org.springframework.boot.autoconfigure.info.ProjectInfoProperties': no URL paths identified
+2018-07-10 16:39:54 - Rejected bean name 'org.springframework.boot.autoconfigure.security.reactive.ReactiveSecurityAutoConfiguration': no URL paths identified
+2018-07-10 16:39:54 - Rejected bean name 'spring.security-org.springframework.boot.autoconfigure.security.SecurityProperties': no URL paths identified
+2018-07-10 16:39:54 - Rejected bean name 'org.springframework.boot.autoconfigure.web.client.RestTemplateAutoConfiguration': no URL paths identified
+2018-07-10 16:39:54 - Rejected bean name 'restTemplateBuilder': no URL paths identified
+2018-07-10 16:39:54 - Rejected bean name 'org.springframework.boot.autoconfigure.web.embedded.EmbeddedWebServerFactoryCustomizerAutoConfiguration$TomcatWebServerFactoryCustomizerConfiguration': no URL paths identified
+2018-07-10 16:39:54 - Rejected bean name 'tomcatWebServerFactoryCustomizer': no URL paths identified
+2018-07-10 16:39:54 - Rejected bean name 'org.springframework.boot.autoconfigure.web.embedded.EmbeddedWebServerFactoryCustomizerAutoConfiguration': no URL paths identified
+2018-07-10 16:39:54 - Rejected bean name 'org.springframework.boot.autoconfigure.web.servlet.HttpEncodingAutoConfiguration': no URL paths identified
+2018-07-10 16:39:54 - Rejected bean name 'characterEncodingFilter': no URL paths identified
+2018-07-10 16:39:54 - Rejected bean name 'localeCharsetMappingsCustomizer': no URL paths identified
+2018-07-10 16:39:54 - Rejected bean name 'org.springframework.boot.autoconfigure.web.servlet.MultipartAutoConfiguration': no URL paths identified
+2018-07-10 16:39:54 - Rejected bean name 'multipartConfigElement': no URL paths identified
+2018-07-10 16:39:54 - Rejected bean name 'multipartResolver': no URL paths identified
+2018-07-10 16:39:54 - Rejected bean name 'spring.servlet.multipart-org.springframework.boot.autoconfigure.web.servlet.MultipartProperties': no URL paths identified
+2018-07-10 16:39:54 - Rejected bean name 'autoConfigurationReport': no URL paths identified
+2018-07-10 16:39:54 - Rejected bean name 'org.springframework.boot.context.ContextIdApplicationContextInitializer$ContextId': no URL paths identified
+2018-07-10 16:39:54 - Rejected bean name 'org.springframework.boot.test.context.filter.TestTypeExcludeFilter': no URL paths identified
+2018-07-10 16:39:54 - Rejected bean name 'org.springframework.boot.test.autoconfigure.properties.PropertyMappingContextCustomizer$PropertyMappingCheckBeanPostProcessor': no URL paths identified
+2018-07-10 16:39:54 - Rejected bean name 'springApplicationArguments': no URL paths identified
+2018-07-10 16:39:54 - Rejected bean name 'springBootBanner': no URL paths identified
+2018-07-10 16:39:54 - Rejected bean name 'springBootLoggingSystem': no URL paths identified
+2018-07-10 16:39:54 - Rejected bean name 'environment': no URL paths identified
+2018-07-10 16:39:54 - Rejected bean name 'systemProperties': no URL paths identified
+2018-07-10 16:39:54 - Rejected bean name 'systemEnvironment': no URL paths identified
+2018-07-10 16:39:54 - Rejected bean name 'servletContext': no URL paths identified
+2018-07-10 16:39:54 - Rejected bean name 'contextParameters': no URL paths identified
+2018-07-10 16:39:54 - Rejected bean name 'contextAttributes': no URL paths identified
+2018-07-10 16:39:54 - Rejected bean name 'org.springframework.context.annotation.ConfigurationClassPostProcessor.importRegistry': no URL paths identified
+2018-07-10 16:39:54 - Rejected bean name 'org.springframework.boot.test.mock.mockito.MockitoBeans': no URL paths identified
+2018-07-10 16:39:54 - Rejected bean name 'messageSource': no URL paths identified
+2018-07-10 16:39:54 - Rejected bean name 'applicationEventMulticaster': no URL paths identified
+2018-07-10 16:39:54 - Mapped URL path [/webjars/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2018-07-10 16:39:54 - Mapped URL path [/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2018-07-10 16:39:54 - Looking for exception mappings: org.springframework.web.context.support.GenericWebApplicationContext@6c284af: startup date [Tue Jul 10 16:39:51 EDT 2018]; root of context hierarchy
+2018-07-10 16:39:54 - Unable to locate LifecycleProcessor with name 'lifecycleProcessor': using default [org.springframework.context.support.DefaultLifecycleProcessor@5a9800f8]
+2018-07-10 16:39:54 - Looking for resource handler mappings
+2018-07-10 16:39:54 - Found resource handler mapping: URL pattern="/**/favicon.ico", locations=[class path resource [META-INF/resources/], class path resource [resources/], class path resource [static/], class path resource [public/], ServletContext resource [/], class path resource []], resolvers=[org.springframework.web.servlet.resource.PathResourceResolver@34237b90]
+2018-07-10 16:39:54 - Found resource handler mapping: URL pattern="/webjars/**", locations=[class path resource [META-INF/resources/webjars/]], resolvers=[org.springframework.web.servlet.resource.PathResourceResolver@1d01dfa5]
+2018-07-10 16:39:54 - Found resource handler mapping: URL pattern="/**", locations=[class path resource [META-INF/resources/], class path resource [resources/], class path resource [static/], class path resource [public/], ServletContext resource [/]], resolvers=[org.springframework.web.servlet.resource.PathResourceResolver@4a31c2ee]
+2018-07-10 16:39:54 - Started LogbackloggingApplicationTests in 2.907 seconds (JVM running for 4.034)
+2018-07-10 16:39:54 - Closing org.springframework.web.context.support.GenericWebApplicationContext@6c284af: startup date [Tue Jul 10 16:39:51 EDT 2018]; root of context hierarchy

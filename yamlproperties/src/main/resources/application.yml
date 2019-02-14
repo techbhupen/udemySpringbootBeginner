@@ -1,0 +1,41 @@
+spring:
+  profiles:
+    active: qa
+
+
+---
+spring:
+  profiles: dev
+
+server:
+  port: 9090
+
+default:
+  course:
+    name: SAP HANA
+    chapterCount: 3
+
+course:
+  name: AWS, DOCKER and MESOS
+  chapterCount: 45
+  rating: 5
+  author: Bhupendra
+
+
+---
+spring:
+  profiles: qa
+
+server:
+  port: 9091
+
+default:
+  course:
+    name: SAP HANA_
+    chapterCount: 3_
+
+course:
+  name: AWS, DOCKER and MESOS_
+  chapterCount: 450
+  rating: 50
+  author: Bhupendra_
